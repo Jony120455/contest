@@ -34,7 +34,7 @@ a {
 .search{
     color: #FF9D34;
 }
-.fa-user {
+.user {
     font-size: 20px;
     background: #FF9D34;
     padding: 10px 12px;
@@ -124,7 +124,9 @@ a {
 #plan {
     background-color: #fafafa;
 }
-
+.plan-img{
+    height: 650px;
+}
 .plan-icon {
     border-radius: 10px;
     width: 60px;
@@ -154,7 +156,32 @@ a {
 
 /* plan section style end  */
 
+/* service section style  */
+
+.service-c{
+    background-color: #f9f9ff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s all;
+
+}
+.service-c p{
+    color: #969AA3;
+}
+
+.service-c:hover{
+    background-color: #116599;
+    color: white;
+}
+.service-c:hover p{
+    color: white;
+}
+/* service section style end */
+
  /* hanimoon style start  */
+ #destination{
+    padding-top: 50px;
+ }
 .destination-header h6 {
     font-size: 20px;
     color: #004d7c;
